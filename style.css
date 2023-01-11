@@ -1,0 +1,91 @@
+root {
+--White: hsl(0, 0%, 100%);
+--Very-light-grayish-blue: hsl(210, 60%, 98%);
+--Ligh-grayish-blue-1: hsl(211, 68%, 94%);
+--Light-grayish-blue-2: hsl(205, 33%, 90%);
+--Grayish-blue: hsl(219, 14%, 63%);
+--Dark-grayish-blue: hsl(219, 12%, 42%);
+--Very-0dark-blue: hsl(224, 21%, 14%);
+--Font-size: 16px;
+--Family: [Plus Jakarta Sans](https://fonts.google.com/specimen/Plus+Jakarta+Sans);
+--Weights: 500, 800;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: hsl(205, 33%, 90%)
+}
+
+section {
+    margin: 30px auto;
+    width: 60%;
+    background-color: hsl(0, 0%, 100%);
+    padding: 50px 15px;
+    border-radius: 10px;
+    font-weight: 400;
+    color: hsl(219, 12%, 42%);
+    display: flex;
+    align-items: center;
+}
+.main {
+    box-sizing: border-box;
+    width:100%;
+    margin: 0;
+}
+
+.notification {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.not{
+    background-color: hsl(219, 12%, 42%);
+    width: 5px;
+    height: 5px;
+    padding: 4px;
+    color: white;
+    border-radius: 7px;
+    width: 95%;
+}
+
+button {
+    background-color: transparent;
+    border: transparent;
+}
+
+.name {
+    padding: 10px;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+    font-size: 1.1rem;
+    margin: 7px;
+}
+
+img {
+    width: 40px;
+    height: 40px;
+}
+
+.markit{
+    font-weight: 800;
+    color: hsl(224, 21%, 14%);
+}
+
+.message{
+    border: 1px solid hsl(219, 14%, 63%);
+    padding: 7px;
+    margin-top: 7px;
+}
+
+.unread{
+    background-color: hsl(205, 33%, 90%);
+}
